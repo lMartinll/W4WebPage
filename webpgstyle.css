@@ -1,0 +1,25 @@
+
+body{
+    background-color: black;    /* the background color is changed to black */
+    background-image: url("leopardback.png");   /* the background image is added (i edited the image to be a bit transparent) */
+    background-repeat: no-repeat;   /* this is to make sure the background image isn't repeated */
+    background-size: cover;     /* this makes sure the image fills the screen */
+}
+
+h1{
+    color: white;   /* this header text a white color */
+    text-decoration: underline;     /* this underlines the header text */
+    font-family: Georgia, 'Times New Roman', Times, serif;      /* this changes the header text font to georgia */
+}
+
+li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    /* this changes the numbered text font to 'Franklin Gothic Medium' */
+    color: white;   /* this changes the numbered text color to white */
+    margin: 10px;   /* this spaces the text 10 pixels from the left side of the page */
+    padding: 10px;  /* this adds 10 pixels of space between each list */
+}
+
+.image{
+    width: 250px;   /* this changes the width of the images to 250 pixels */
+    height: 150px;  /* this changes the height of the images to 150 pixels */
+}
